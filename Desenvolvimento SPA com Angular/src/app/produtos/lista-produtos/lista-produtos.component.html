@@ -1,0 +1,38 @@
+<div class="container main-container" style="margin-top: 100px;">
+    <div class="row text-center">
+
+        <div *ngFor="let produto of produtos" class="col-md-4" style="padding-bottom: 30px;">
+        
+            <div class="card h-100">
+            <a [routerLink]="['/produto-detalhe', produto.id]" routerLinkActive="router-link-active"  class="text-decoration-none">
+                <div class="align-content-center">
+                    <img src="/assets/{{ produto.imagem }}" alt="{{produto.nome}}" height="164px" width="253px">
+                </div>
+            </a>
+
+            <h4 class="card-title">{{ produto.nome | titlecase }}</h4>
+            
+            <div [ngSwitch]="produto.promocao">
+                <p *ngSwitchCase="true">Promoção!</p>
+                <p *ngSwitchCase="false">Por apenas:</p>
+            </div>
+
+            <div *ngIf="produto.promocao" class="card-body">
+                <div><h4 class="card-text">De:
+                    <small><del>{{  produto.valor | currency:'BRL':true:'1.2-2':'pt-BR' }}</del></small>
+                    Por: {{ produto.valorPromo | currency:'BRL':true:'1.2-2':'pt-BR' }}
+                </h4></div>
+            </div>
+
+            <div *ngIf="!produto.promocao" class="card-body">
+                <div><h4>{{ produto.valor | currency:'BRL':symbol:'1.2-2':'pt-BR' }}</h4></div>
+            </div>
+
+            <div class="card-footer">
+                <a [routerLink]="['/carrinho', produto.id]" routerLinkActive="router-link-active"  class="btn btn-primary">
+                    <span class="fa fa-shopping-cart"></span> Comprar
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

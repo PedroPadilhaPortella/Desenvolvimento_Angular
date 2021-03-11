@@ -1,0 +1,19 @@
+<div class="pt-5 mt-5 ml-5">
+    <h3>Bar</h3>
+    <p>Bebida 1: {{ barBebida1 }}</p>
+    <p>Bebida 2: {{ barBebida2 }}</p>
+    <p>Porção 1: {{ barPorcao1 }}</p>
+    <p>Refeição 1: {{ barRefeicao1 }}</p>
+    <hr>
+    <p>Unidade Manual: {{ configManual.unidadeId }} - Token Manual: '{{ configManual.unidadeToken }}'</p>
+    <p>Unidade: {{ configAuto.unidadeId }} - Token: '{{ configAuto.unidadeToken }}'</p>
+    <p>Dados da Unidade (service): {{ dadosUnidade }}'</p>
+
+    <div style="background-color: sandybrown; margin: 10px 100px;">
+         <h2>Progress {{ progress}}%</h2>
+         <p *ngIf="progress >= 100">Done Processing {{ label }} of Angular Zone!</p>
+         
+         <a href="javascript:void(0)" class="btn btn-success" (click)="progressWithinAngularZone()">Processar dentro da Zona do Angular</a>
+         <a href="javascript:void(0)" class="btn btn-warning" (click)="progressOutsideAngularZone()">Processar fora da Zona do Angular</a>
+    </div>
+</div>

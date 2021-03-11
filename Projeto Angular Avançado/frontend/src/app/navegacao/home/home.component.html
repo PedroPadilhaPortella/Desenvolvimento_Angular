@@ -1,0 +1,87 @@
+<!-- Page Content -->
+<header class="bg-primary py-5 mb-5">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-lg-2">
+                <img src="https://angular.io/assets/images/logos/angular/angular.svg" />
+            </div>
+            <div class="col-lg-10">
+                <h1 class="display-5 text-white mt-5 mb-2">Angular WebServico de Produtos</h1>
+                <p class="lead mb-5 text-white">Acesse esta incrível aplicação Angular e Asp.Net e veja o poder na tecnologia SPA.</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container main-container">
+    <div class="row text-center">
+
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100">
+                <img class="card-img-top" src="/assets/full_dev.jpg" height="164px" width="253px" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Fornecedores</h4>
+                    <p class="card-text">Acesse aqui a tabela com nossos fornecedores em ativo na plataforma, bem como sua localidade.</p>
+                </div>
+                <div class="card-footer">
+                    <a [routerLink]="['/fornecedores/listar-todos']" routerLinkActive="router-link-active"  class="btn btn-primary">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100">
+                <img class="card-img-top" src="/assets/performance.jpg" height="164px" width="253px" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Produtos</h4>
+                    <p class="card-text">Acesse aqui a tabela com nossos produtos disponíveis na plataforma.</p>
+                </div>
+                <div class="card-footer">
+                    <a [routerLink]="['/produtos/listar-todos']" routerLinkActive="router-link-active"  class="btn btn-primary">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100">
+                <img class="card-img-top" src="https://res.cloudinary.com/mhmd/image/upload/v1556834139/img-1_e25nvh.jpg" height="164px" width="253px" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Sobre Nós</h4>
+                    <p class="card-text">Veja quem nós somos, como nossa empresa carrega comprometimento e potencial.</p>
+                </div>
+                <div class="card-footer">
+                    <a [routerLink]="['/sobre']" routerLinkActive="router-link-active"  class="btn btn-primary">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4" *ngIf="isLogged; else HomeTemplate">
+            <div class="card h-100">
+                <img class="card-img-top" src="https://dentalspeed.com/imgs/topo/icones/user.svg" height="164px" width="253px" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Faça Login ou Cadastre-se</h4>
+                    <p class="card-text">Faça seu Login em seus dispositivos móveis e acesse em qualquer lugar e a qualquer hora.</p>
+                </div>
+                <div class="card-footer">
+                    <a [routerLink]="['/conta/login']" routerLinkActive="router-link-active"  class="btn btn-primary">Login</a>
+                </div>
+            </div>
+        </div>
+
+        <ng-template #HomeTemplate>
+            <div  class="col-lg-3 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="https://jeferson.net.br/wp-content/uploads/angular-nestjs-zeit-now-nx.png" height="164px" width="253px" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Home</h4>
+                        <p class="card-text">Veja os nossos principais Serviços disponíveis aqui.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a [routerLink]="['/home']" routerLinkActive="router-link-active"  class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+    </div>
+</div>
+<!-- Fim Content -->

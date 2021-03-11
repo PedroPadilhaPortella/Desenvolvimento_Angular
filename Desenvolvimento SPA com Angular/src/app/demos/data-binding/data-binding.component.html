@@ -1,0 +1,63 @@
+<!-- Page Content -->
+<div class="container main-container">
+    <!-- Jumbotron Header -->
+    <header class="jumbotron">
+        <h3>Interpolation</h3>
+        <p [ngClass]="{
+            'text-secondary': 3 > contador,
+            'text-primary': contador >= 3, 
+            'text-success': contador >= 6,
+            'text-warning': contador >= 9,
+            'text-danger': contador >= 10
+        }">O número de cliques é {{ contador }}</p>
+
+        <h3>Property Binding</h3>
+        <button class="btn btn-info my-3" [disabled]="contador >= 10">Info</button><br>
+        <img [src]="urlImage" height="300" width="300">
+        <br><br>
+
+        <h3>Property Binding</h3>
+        <button class="btn btn-warning my-3" (click)="adicionar()">Adicionar</button><br>
+        <button class="btn btn-danger my-3" [disabled]="10 > contador" (click)="zerar()">Zerar Contador</button><br>
+        
+        <h3>Property Binding</h3>
+        <!-- <input type="text" (keypress)="keypress($event)" placeholder="digite algo..">
+        <br><label>{{ algo }}</label> -->
+
+        <!-- <input type="text" [ngModel]="algo" (ngModelChange)="algo = $event" placeholder="digite algo..">
+        <br><label>{{ algo }}</label> -->
+        <input type="text" [(ngModel)]="nome" placeholder="digite seu nome...">
+        <br><label [ngClass]="nome">Seu nome é {{ nome }}</label>
+        
+    </header>
+
+</div>
+
+<!-- Full list of Angular Events
+
+    (click)="myFunct'ion()"      
+    (dblclick)="myFunction()"   
+
+    (submit)="myFunction()"
+
+    (blur)="myFunction()"  
+    (focus)="myFunction()" 
+
+    (scroll)="myFunction()"
+
+    (cut)="myFunction()"
+    (copy)="myFunction()"
+    (paste)="myFunction()"
+
+    (keyup)="myFunction()"
+    (keypress)="myFunction()"
+    (keydown)="myFunction()"
+
+    (mouseup)="myFunction()"
+    (mousedown)="myFunction()"
+    (mouseenter)="myFunction()"
+
+    (drag)="myFunction()"
+    (drop)="myFunction()"
+    (dragover)="myFunction()"'
+ -->
