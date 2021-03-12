@@ -11,7 +11,7 @@ Tabela de Projetos
      * [Curso de Angular Avançado do Eduardo Pires na plataforma <a href="desenvolvedor.io">desenvolvedor.io</a>](#)
    * [Desenvolvimento SPA com Angular](#Desenvolvimento-SPA-com-Angular)
      * [Curso de Angular Básico do Eduardo Pires na plataforma <a href="desenvolvedor.io">desenvolvedor.io</a>](#)
-   * [Projeto Angular Avançado]()
+   * [Projeto Angular Avançado](/Projeto%20Angular%20Avançado)
      * [Projeto Final de Angular Avançado do Eduardo Pires na plataforma <a href="desenvolvedor.io">desenvolvedor.io</a>](#)
 <!--te-->
 
