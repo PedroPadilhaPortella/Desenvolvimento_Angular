@@ -7,8 +7,7 @@
 Tabela de Projetos
 =================
 <!--ts-->
-   * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Desenvolvimento Avançado com Angular](#Desenvolvimento-Avançado-com-Angular)
+   * [Desenvolvimento Avançado com Angular](#/tree/main/Desenvolvimento%20Avançado%20com%20Angular)
      * [Curso de Angular Avançado do Eduardo Pires na plataforma <a href="desenvolvedor.io">desenvolvedor.io</a>](#Projeto-Angular-Avançado)
    * [Desenvolvimento SPA com Angular](#Desenvolvimento-SPA-com-Angular)
      * [Curso de Angular Básico do Eduardo Pires na plataforma <a href="desenvolvedor.io">desenvolvedor.io</a>](#Projeto-Angular-Avançado)
