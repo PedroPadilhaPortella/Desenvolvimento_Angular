@@ -1,7 +1,20 @@
-# ProjetoAngular
+<h1 align="center">Desenvolvimento Angular :diamonds:</h1>
+<h2 align="center">Repositório contém alguns projetos pessoais ou desenvolvidos em cursos e bootcamps em Angular</h2>
+<img align="center" src="https://github.com/PedroPadilhaPortella/Desenvolvimento_Angular/blob/main/.github/background.jpeg">
 
-<img src="https://github.com/PedroPadilhaPortella/Desenvolvimento_Angular/blob/main/.github/background.jpeg" alt="background">
 
+
+Tabela de Projetos
+=================
+<!--ts-->
+   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Desenvolvimento Avançado com Angular](#Desenvolvimento-Avançado-com-Angular)
+     * [Curso de Angular Avançado do Eduardo Pires na plataforma <a href="desenvolvedor.io">desenvolvedor.io</a>](#Projeto-Angular-Avançado)
+   * [Desenvolvimento SPA com Angular](#Desenvolvimento-SPA-com-Angular)
+     * [Curso de Angular Básico do Eduardo Pires na plataforma <a href="desenvolvedor.io">desenvolvedor.io</a>](#Projeto-Angular-Avançado)
+   * [Projeto Angular Avançado](Projeto-Angular-Avançado)
+     * [Projeto Final de Angular Avançado do Eduardo Pires na plataforma <a href="desenvolvedor.io">desenvolvedor.io</a>](#Projeto-Angular-Avançado)
+<!--te-->
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
