@@ -7,12 +7,12 @@
 Tabela de Projetos
 =================
 <!--ts-->
-   * [Desenvolvimento Avançado com Angular](#)
-     * [Curso de Angular Avançado do Eduardo Pires na plataforma <a href="desenvolvedor.io">desenvolvedor.io</a>](#)
-   * [Desenvolvimento SPA com Angular](#Desenvolvimento-SPA-com-Angular)
-     * [Curso de Angular Básico do Eduardo Pires na plataforma <a href="desenvolvedor.io">desenvolvedor.io</a>](#)
+   * [Desenvolvimento Avançado com Angular](/Desenvolvimento%20Avançado%20com%20Angular)
+     * [Curso de Angular Avançado do Eduardo Pires na plataforma <a href="desenvolvedor.io">desenvolvedor.io</a>](/Desenvolvimento%20Avançado%20com%20Angular)
+   * [Desenvolvimento SPA com Angular](/Desenvolvimento%20SPA%20com%20Angular)
+     * [Curso de Angular Básico do Eduardo Pires na plataforma <a href="desenvolvedor.io">desenvolvedor.io</a>](/Desenvolvimento%20SPA%20com%20Angular)
    * [Projeto Angular Avançado](/Projeto%20Angular%20Avançado)
-     * [Projeto Final de Angular Avançado do Eduardo Pires na plataforma <a href="desenvolvedor.io">desenvolvedor.io</a>](#)
+     * [Projeto Final de Angular Avançado do Eduardo Pires na plataforma <a href="desenvolvedor.io">desenvolvedor.io</a>](/Projeto%20Angular%20Avançado)
 <!--te-->
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
